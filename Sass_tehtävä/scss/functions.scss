@@ -1,0 +1,5 @@
+.card {
+  background-color: lighten($secondary-color, 10%);
+  border: 1px solid darken($secondary-color, 10%);
+  padding: $gutter;
+}

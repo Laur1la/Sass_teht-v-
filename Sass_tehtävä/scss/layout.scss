@@ -1,0 +1,26 @@
+.site-header {
+  background-color: $primary-color;
+  color: $background-color;
+
+  .logo {
+    font-size: $heading-font-size;
+    span {
+      color: lighten($primary-color, 20%);
+    }
+  }
+
+  .main-nav {
+    display: flex;
+    gap: $gutter;
+
+    .nav-link {
+      color: $background-color;
+      text-decoration: none;
+
+      &.is-active {
+        font-weight: bold;
+        border-bottom: 2px solid $secondary-color;
+      }
+    }
+  }
+}
